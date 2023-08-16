@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4458764f-cea5-4520-b9e0-019605c8de45" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HammingJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HammingJava.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/zipcode/Hamming.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/zipcode/zipcode/Hamming.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/zipcode/HammingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/zipcode/zipcode/HammingTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +154,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_directory_selection": "/Users/min/Desktop/Local Projects/HammingItUpJava/src/main/zipcode"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -174,7 +178,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HammingTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HammingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HammingJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="java" />
+      <option name="MAIN_CLASS_NAME" value="java.HammingTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HammingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HammingJava" />
       <extension name="coverage">
         <pattern>
@@ -190,17 +210,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HammingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HammingTest.testNoDistanceBetweenShortIdenticalStrands" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HammingJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java.*" />
+          <option name="PATTERN" value="zipcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="java" />
-      <option name="MAIN_CLASS_NAME" value="java.HammingTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="zipcode" />
+      <option name="MAIN_CLASS_NAME" value="zipcode.HammingTest" />
+      <option name="METHOD_NAME" value="testNoDistanceBetweenShortIdenticalStrands" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -234,6 +255,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.HammingTest (1)" />
+        <item itemvalue="JUnit.HammingTest.testNoDistanceBetweenShortIdenticalStrands" />
         <item itemvalue="JUnit.HammingTest" />
       </list>
     </recent_temporary>
